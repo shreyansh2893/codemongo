@@ -23,9 +23,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 | a PHP script and you can easily do that on your own.
 |
 */
-// $config['base_url'] = 'http://localhost/Bigv/ridhi/';
-// $config['base_url'] = 'http://localhost:82/codeigniter-projects/tailsweb/';
-$config['base_url'] = 'https://salty-plateau-76014.herokuapp.com/';
+ $config['base_url'] = 'http://localhost:82/codeigniter-projects/tailsweb/';
 
 /*
 |--------------------------------------------------------------------------
