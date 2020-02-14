@@ -8,7 +8,6 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 class Student_model extends CI_model {
 	
 	private $database = 'codemongo';
-	//private $database = 'roytuts';
 	private $collection = 'students';
 	private $collection_sub = 'subjects';
 	private $conn;
