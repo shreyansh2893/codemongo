@@ -23,7 +23,7 @@ class MongoDB {
 			if($authenticate === TRUE) {
 				$this->ci->conn = new MongoDB\Driver\Manager('mongodb://' . $username . ':' . $password . '@' . $host. ':' . $port);
 			} else {
-				$this->ci->conn = new MongoDB\Driver\Manager('mongodb+srv://shrey123:shrey123@cluster0-76oeb.mongodb.net/test?retryWrites=true&w=majority');
+				$this->ci->conn = new MongoDB\Driver\Manager('mongodb://' . $host. ':' . $port);
 			}
 		} catch(MongoDB\Driver\Exception\MongoConnectionException $ex) {
 			show_error('Couldn\'t connect to mongodb: ' . $ex->getMessage(), 500);
