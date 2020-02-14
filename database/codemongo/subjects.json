@@ -1,0 +1,3 @@
+{"_id":{"$oid":"5e427278d3c1f0427cda880d"},"name":"physics"}
+{"_id":{"$oid":"5e4272c4e25993427ce9932d"},"name":"chemistry"}
+{"_id":{"$oid":"5e4272cfe25993427ce9932e"},"name":"maths"}

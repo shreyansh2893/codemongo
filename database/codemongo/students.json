@@ -1,0 +1,4 @@
+{"_id":{"$oid":"5e4153ce0655914148084bd5"},"rno":1,"name":"ajay","physics":20,"chemistry":60,"maths":62}
+{"_id":{"$oid":"5e415427b3ddd3414870ba1d"},"rno":2,"name":"vijay","physics":60,"chemistry":"33","maths":"45"}
+{"_id":{"$oid":"5e4255be46c2a927bc0024f7"},"rno":3,"name":"vaibhav","physics":42,"chemistry":0,"maths":0}
+{"_id":{"$oid":"5e4259b746c2a927bc0024f9"},"rno":5,"name":"","physics":"44","chemistry":0,"maths":33}
