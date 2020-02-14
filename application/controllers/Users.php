@@ -62,24 +62,5 @@
 		}
 
 
-		//check if username exists
-		public function check_username_exists($username){
-			$this->form_validation->set_message('check_username_exists', 'That Username is taken. Please choose a different one.');
-			if($this->user_model->check_username_exists($username)){
-				return true;
-			}else{
-				return false;
-			}
-
-		}
-
-		//chck if email exists
-		public function check_email_exists($email){
-			$this->form_validation->set_message('check_email_exists', 'That email is taken. Please choose a different one.');
-			if($this->user_model->check_email_exists($email)){
-				return true;
-			}else{
-				return false;
-			}
-		}
+	
 	}
